@@ -1,0 +1,93 @@
+.jumbotron { 
+  background-color: #c2b280; /* Sand */
+  color: #0E172A; /* Dark Blue */
+  padding: 100px 25px;
+}
+
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+/* Add an orange color to all icons and set the font-size */
+.logo-small {
+  color: #0E172A;
+  font-size: 150px;
+}
+
+.logo {
+  color: #0E172A;
+  font-size: 100px;
+}
+
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #0E172A;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #61BECC !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+footer .glyphicon {
+  position: fixed;
+  bottom: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #0E172A;
+}
+
+/* button farbe */
+.register-button-background {
+    background-color:#0E172A;
+    color: white;
+}
